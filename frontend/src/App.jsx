@@ -321,7 +321,7 @@ const FortuneTeller = () => {
             >
               {loading ? (
                 <>
-                  <span className="animate-spin">🔄</span> <span>Generating...</span>
+                  <span className="animate-spin"></span> <span>Generating...</span>
                 </>
               ) : (
                 'Reveal Your Fortune'
@@ -358,7 +358,7 @@ const FortuneTeller = () => {
   
       {/* Footer */}
       <footer className="text-center py-4 text-sm text-gray-600">
-        Made with ❤️ by{' '}
+        Made with by{' '}
         <a
           href="https://github.com/sreecharan-desu"
           target="_blank"
